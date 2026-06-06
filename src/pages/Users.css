@@ -1,0 +1,182 @@
+.users-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.page-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1 1 260px;
+  padding: 0.5rem 0.85rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+
+.search-input:focus {
+  border-color: #63b3ed;
+}
+
+.filter-select {
+  padding: 0.5rem 0.85rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.filter-select:focus {
+  border-color: #63b3ed;
+}
+
+.results-count {
+  font-size: 0.85rem;
+  color: #718096;
+}
+
+/* Table */
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: 0.9rem;
+}
+
+.users-table thead {
+  background-color: #2d3748;
+  color: #fff;
+}
+
+.users-table th {
+  padding: 0.85rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.users-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #edf2f7;
+  vertical-align: middle;
+}
+
+.users-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.users-table tbody tr:hover {
+  background-color: #f7fafc;
+}
+
+.name-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 600;
+}
+
+.table-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #2b6cb0;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.status-active {
+  background-color: #c6f6d5;
+  color: #276749;
+}
+
+.status-inactive {
+  background-color: #fed7d7;
+  color: #9b2c2c;
+}
+
+.role-admin {
+  background-color: #bee3f8;
+  color: #2c5282;
+}
+
+.role-editor {
+  background-color: #fefcbf;
+  color: #744210;
+}
+
+.role-viewer {
+  background-color: #e2e8f0;
+  color: #4a5568;
+}
+
+.no-results {
+  text-align: center;
+  padding: 2rem;
+  color: #718096;
+}
+
+/* Reuse buttons from Home */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.btn-secondary {
+  background-color: #edf2f7;
+  color: #2d3748;
+}
+
+.btn-secondary:hover {
+  background-color: #e2e8f0;
+}
+
+.btn-sm {
+  padding: 0.35rem 0.85rem;
+  font-size: 0.85rem;
+}
