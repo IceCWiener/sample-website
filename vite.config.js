@@ -1,9 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// When deployed to GitLab Pages the app lives at /<project-name>/
-// CI_PROJECT_NAME is set automatically by GitLab CI.
-const base = process.env.CI_PROJECT_NAME ? `/${process.env.CI_PROJECT_NAME}/` : '/'
+// When deployed to GitHub Pages the app lives at /<repo-name>/
+// GITHUB_REPOSITORY is set automatically by GitHub Actions (format: "owner/repo").
+const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1]
+const base = repoName ? `/${repoName}/` : '/'
 
 export default defineConfig({
   base,
