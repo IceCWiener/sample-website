@@ -92,4 +92,4 @@ docker build -t sample-website .
 docker run -it --rm -p 80:80 sample-website
 
 # Host
-hosted on https://icecwiener.github.io/simple-website/
+hosted on https://icecwiener.github.io/sample-website/
