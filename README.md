@@ -90,3 +90,6 @@ docker build -t sample-website .
 
 # Run the container (publicly accessible on http://<your-ip>:80):
 docker run -it --rm -p 80:80 sample-website
+
+# Host
+hosted on https://icecwiener.github.io/simple-website/
