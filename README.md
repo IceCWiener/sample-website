@@ -69,3 +69,24 @@ src/
 ├── main.jsx
 └── index.css
 ```
+
+# Docker has specific installation instructions for each operating system.
+# Please refer to the official documentation at https://docker.com/get-started/
+
+# Pull the Node.js Docker image:
+docker pull node:24-slim
+
+# Create a Node.js container and start a Shell session:
+docker run -it --rm --entrypoint sh node:24-slim
+
+# Verify the Node.js version:
+node -v # Should print "v24.16.0".
+
+# Verify npm version:
+npm -v # Should print "11.13.0".
+
+# Build the Docker image:
+docker build -t sample-website .
+
+# Run the container (publicly accessible on http://<your-ip>:80):
+docker run -it --rm -p 80:80 sample-website

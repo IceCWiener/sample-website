@@ -1,0 +1,9 @@
+id,name,email,role,department,status,joined,phone,location,bio
+1,Alice Johnson,alice.johnson@example.com,Admin,Engineering,Active,2021-03-15,+1 (555) 234-5678,"San Francisco, CA",Alice is a senior software engineer with 8 years of experience in full-stack development.
+2,Bob Martinez,bob.martinez@example.com,Editor,Marketing,Active,2022-07-01,+1 (555) 345-6789,"Austin, TX",Bob leads content strategy and oversees digital campaigns across multiple channels.
+3,Carol White,carol.white@example.com,Viewer,Finance,Inactive,2020-11-20,+1 (555) 456-7890,"New York, NY",Carol is a financial analyst with expertise in budget forecasting and risk assessment.
+4,David Kim,david.kim@example.com,Editor,Engineering,Active,2023-01-10,+1 (555) 567-8901,"Seattle, WA",David specializes in backend systems and cloud infrastructure on the platform team.
+5,Eva Burmington,eva.burmington@example.com,Admin,HR,Active,2019-06-05,+1 (555) 678-9012,"Chicago, IL",Eva oversees talent acquisition and onboarding and employee engagement programs.
+6,Frank Lopez,frank.lopez@example.com,Viewer,Marketing,Inactive,2022-04-18,+1 (555) 789-0123,"Miami, FL",Frank supports the marketing team with data analytics and reporting dashboards.
+7,Grace Lee,grace.lee@example.com,Editor,Design,Active,2021-09-30,+1 (555) 890-1234,"Los Angeles, CA",Grace is a UX/UI designer passionate about accessible and intuitive product experiences.
+8,Henry Chen,henry.chen@example.com,Viewer,Finance,Active,2020-02-14,+1 (555) 901-2345,"Boston, MA",Henry manages accounts payable and works closely with the engineering team on billing systems.
